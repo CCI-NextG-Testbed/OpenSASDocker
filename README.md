@@ -25,10 +25,16 @@ This start the two services
 The web portal can be access via http://localhost:9528/
 
 The CBSDs can access the SAS via the following URL endpoints:
+
 http://localhost:1443/sas-api/registration
+
 http://localhost:1443/sas-api/spectrumInquiry
+
 http://localhost:1443/sas-api/grant
+
 http://localhost:1443/sas-api/heartbeat
+
 http://localhost:1443/sas-api/relinquishment
+
 http://localhost:1443/sas-api/deregistration
 
