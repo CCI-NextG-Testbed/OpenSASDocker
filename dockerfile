@@ -38,7 +38,7 @@ RUN pip install -r requirements.txt
 WORKDIR /home/OpenSAS
 RUN git clone https://github.com/CCI-NextG-Testbed/OpenSAS-dashboard
 WORKDIR /home/OpenSAS/OpenSAS-dashboard
-RUN npm install
+RUN npm install --legacy-peer-deps
 
 WORKDIR /home/OpenSAS
 
